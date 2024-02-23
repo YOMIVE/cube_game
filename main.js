@@ -129,7 +129,7 @@ function btnTop() {
 }
 
 function btnLeft() {
-    if(personId != 11 || personId != 21 || personId != 31) {
+    if(personId != 11 && personId != 21 && personId != 31) {
         personId--;
         console.log("<")
         console.log(personId)
@@ -138,7 +138,7 @@ function btnLeft() {
 }
 
 function btnRight() {
-    if(personId != 13 || personId != 23 || personId != 33) {
+    if(personId != 13 && personId != 23 && personId != 33) {
         personId++;
         console.log(">")
         console.log(personId)
@@ -147,7 +147,7 @@ function btnRight() {
 }
 
 function btnBottom() {
-    if(personId != 31 || personId != 32 || personId != 33) {
+    if(personId != 31 && personId != 32 && personId != 33) {
         personId += 10;
         console.log("\\/")
         console.log(personId)
