@@ -120,7 +120,7 @@ reloadGame(personId);
 
 
 function btnTop() {
-    if(personId != 11 || personId != 12 || personId != 13) {
+    if(personId != 11 && personId != 12 && personId != 13) {
         personId -= 10;
         console.log("/\\")
         console.log(personId)
