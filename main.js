@@ -54,7 +54,7 @@ function reloadGame(personId) {
             Field_Two_One.style.cssText = "background-color: red;";
             Field_Two_Two.style.cssText = "background-color: rgb(100, 100, 100);";
             Field_Two_Three.style.cssText = "background-color: rgb(100, 100, 100);";
-            Field_Three_.style.cssText = "background-color: rgb(100, 100, 100);";
+            Field_Three_One.style.cssText = "background-color: rgb(100, 100, 100);";
             Field_Three_Two.style.cssText = "background-color: rgb(100, 100, 100);";
             Field_Three_Three.style.cssText = "background-color: rgb(100, 100, 100);";
             break
